@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StarMall</title>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        margin: 0;
+        font-family: sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <header
+      style="
+        position: relative;
+        background-color: #4b4b4b;
+        color: #fff;
+        text-align: center;
+        padding: 0.5px;
+        font-style: italic;
+      "
+    >
+      <h1 style="font-size: 5vw">
+        SmartWear.
+        <!-- Gambar diatur ke sudut kanan -->
+      </h1>
+      <img
+        src="logo.png"
+        alt="Logo"
+        style="
+          height: 20vw;
+          max-height: 50px;
+          width: auto;
+          position: absolute;
+          top: 10px;
+          right: 10px;
+          border-radius: 50%;
+          object-fit: cover;
+        "
+      />
+    </header>
+
+    <!-- Navigasi -->
+    <nav
+      style="
+        background-color: #100f0f;
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+      "
+    >
+      <a
+        href="#home"
+        style="color: white; margin: 5px 10px; text-decoration: none; "
+        >Home</a
+      >
+      <a
+        href="#Menu"
+        style="color: white; margin: 5px 10px; text-decoration: none"
+        >Menu</a
+      >
+      <a
+        href="#about"
+        style="color: white; margin: 5px 10px; text-decoration: none"
+        >Tentang</a
+      >
+
+      <a
+        href="#contact"
+        style="color: white; margin: 5 10px; text-decoration: none"
+        >Kontak</a
+      >
+    </nav>
+    <!-- Hero Section -->
+    <section
+      id="home"
+      style="
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        background-color: #363636;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+
+        padding: 20px;
+      "
+    >
+      <main style="width: 100%">
+        <div style="padding: 0 5%">
+          <h1
+            style="
+              color: #f0f0f0;
+              font-size: 8vw;
+              font-style: italic;
+              line-height: 1;
+              text-shadow: 2px 2px 0 black, -2px -2px 0 black, 2px -2px 0 black,
+                -2px 2px 0 black;
+            "
+          >
+          Heavy on features. Light on price
+          </h1>
+          
+          <button
+            type="submit"
+            style="
+              display: inline-block;
+              padding: 1rem 3rem;
+              font-size: 3vw;
+            
+              color: #080808;
+              background-color: #f7f7f7;
+              cursor: pointer;
+              border-radius: 10px;
+            "
+          >
+          
+            Beli Sekarang
+          </button>
+        </div>
+      </main>
+    </section>
+
+    <!-- Tentang -->
+    <section
+      id="about"
+      style="
+        padding: 30px 5px;
+        text-align: center;
+        background-color: #454545;
+        color: #f0f0f0;
+      "
+    >
+      <h2 style="text-align: center; font-size: 2.6rem; margin-bottom: 3rem">
+        Tentang Kami
+      </h2>
+      <div
+        style="
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
+        "
+      >
+        <div style="flex: 1 1 100%; max-width: 500px; margin-bottom: 10px">
+          <img
+            src="hero_img.png"
+            
+            alt="Tentang Kami "
+            style="width: 50%; height: auto;"
+          />
+        </div>
+        <div
+          style="
+            flex: 1 1 100%;
+            max-width: 600px;
+            padding: 0 1rem;
+            text-align: justify;
+          "
+        >
+          <h3
+            style="font-size: 1.8rem; margin-bottom: 1rem; text-align: center"
+          >
+            Kenapa harus berbelanja di toko Kami?
+          </h3>
+          <p
+            style="
+              margin-bottom: 0.8rem;
+              font-size: 1rem;
+              font-weight: 100;
+              line-height: 1.6;
+            "
+          >
+          Berbelanja di toko kami adalah pilihan tepat bagi Anda yang mencari smart watch berkualitas dengan harga bersaing dan pelayanan terbaik. 
+          Kami menyediakan berbagai pilihan smart watch terbaru dengan fitur canggih yang cocok untuk gaya hidup aktif maupun kebutuhan sehari-hari. 
+          Selain itu, setiap pembelian dilengkapi dengan garansi resmi, layanan pelanggan yang responsif, dan pengiriman cepat ke seluruh Indonesia. 
+          Dengan komitmen pada kepuasan pelanggan, toko kami hadir untuk memberikan pengalaman belanja yang aman, nyaman, dan terpercaya.
+          </p>
+          <p
+            style="
+              margin-bottom: 0.8rem;
+              font-size: 1rem;
+              font-weight: 100;
+              line-height: 1.6;
+            "
+          >
+          Cocok untuk kamu yang ingin tampil stylish dan tetap produktif di setiap momen! 
+          Belanja sekarang di toko SmartWear dan nikmati promo spesial serta gratis ongkir ke seluruh Indonesia! Stok terbatas, 
+          jangan sampai kehabisan! Klik link di bio dan temukan smart watch favoritmu hari ini juga!
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Menu -->
+    <section
+      id="Menu"
+      style="
+        padding: 30px 20px;
+        text-align: center;
+        background-color: #363636;
+        color: #f0f0f0;
+      "
+    >
+      <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 3rem">
+        Daftar Barang Kami
+      </h2>
+      <div
+        style="
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 3rem;
+          padding: 3rem;
+        "
+      >
+        <div style="flex: 1 1 150px; max-width: 200px">
+          <img
+            src="product-1.png"
+            alt="Fruit Watch"
+            style="
+              width: 100%;
+              height: auto;
+              border-radius: 50%;
+              object-fit: cover;
+            "
+          />
+          <h3 style="text-align: center; margin: 1rem auto 0.5rem">Fruit Watch</h3>
+          <p style="text-align: center">IDR 5.000.000</p>
+        </div>
+        <div style="flex: 1 1 150; max-width: 200px">
+          <img
+            src="product-2.png"
+            alt="Fruit Watch Gen-2"
+            style="
+              border-radius: 50%;
+              width: 100%;
+              height: auto;
+              object-fit: cover;
+            "
+          />
+          <h3 style="text-align: center; margin: 1rem auto 0.5rem">Fruit Watch Gen-2</h3>
+          <p style="text-align: center">IDR 6.500.000</p>
+        </div>
+        <div style="flex: 1 1 150; max-width: 200px">
+          <img
+            src="product-3.png"
+            alt="Fruit Watch Ultra"
+            style="
+              border-radius: 50%;
+              width: 100%;
+              height: auto;
+              object-fit: cover;
+            "
+          />
+          <h3 style="text-align: center; margin: 1rem auto 0.5rem">Fruit Watch Ultra</h3>
+          <p style="text-align: center">IDR 7.000.000</p>
+        </div>
+        <div style="flex: 1 1 150; max-width: 200px">
+          <img
+            src="product-4.png"
+            alt="Fruit Watch Gen-Z"
+            width="150"
+            height="150"
+            style="
+              border-radius: 50%;
+              width: 100%;
+              height: auto;
+              object-fit: cover;
+            "
+          />
+          <h3 style="text-align: center; margin: 1rem auto 0.5rem">Fruit Watch Gen-Z</h3>
+          <p style="text-align: center">IDR 10.500.000</p>
+        </div>
+      </div>
+    </section>
+    <!-- Kontak -->
+    <section
+      id="contact"
+      style="
+        background-color: #454545;
+        color: white;
+        padding: 30px 20px;
+        text-align: center;
+      "
+    >
+      
+        <h2>Contact Us</h2>
+        <p>Email: smartwear@gmail.com</p>
+        <p>Telepon: (62) 2344-2343-3443</p>
+        <div style="display: flex">
+          
+          <form
+            action=""
+            style="flex: 1 1 45rem; padding: 5rem 2rem; text-align: center"
+          >
+            <div
+              style="
+                display: flex;
+                align-items: center;
+                margin-top: 2rem;
+                background-color: #3b1f02;
+                border: 1px solid #eee;
+                padding: 1.3rem;
+                width: 100%;
+                font-size: 1.7rem;
+                background: none;
+              "
+            >
+              <i data-feather="user"></i>
+              <input
+                type="text"
+                placeholder="Name"
+                style="
+                  background: transparent;
+                  border: none;
+                  outline: none;
+                  color: white;
+                  width: 100%;
+                  margin-left: 10px;
+                "
+              />
+            </div>
+            <div
+              style="
+                display: flex;
+                align-items: center;
+                margin-top: 2rem;
+                background-color: #3b1f02;
+                border: 1px solid #eee;
+                padding: 1.3rem;
+                width: 100%;
+                font-size: 1.7rem;
+                background: none;
+              "
+            >
+              <i data-feather="phone"></i>
+              <input
+                type="text"
+                placeholder="Phone Number"
+                style="
+                  background: transparent;
+                  border: none;
+                  outline: none;
+                  color: white;
+                  width: 100%;
+                  margin-left: 10px;
+                "
+              />
+            </div>
+            <div
+              style="
+                display: flex;
+                align-items: center;
+                margin-top: 2rem;
+                background-color: #3b1f02;
+                border: 1px solid #eee;
+                padding: 1.3rem;
+                width: 100%;
+                font-size: 1.7rem;
+                background: none;
+              "
+            >
+              <i data-feather="mail"></i>
+              <input
+                type="text"
+                placeholder="E-mail"
+                style="
+                  background: transparent;
+                  border: none;
+                  outline: none;
+                  color: white;
+                  width: 100%;
+                  margin-left: 10px;
+                "
+              />
+            </div>
+            <button
+              type="submit"
+              style="
+                margin-top: 3rem;
+                display: inline-block;
+                padding: 1rem 3rem;
+                font-size: 1.7rem;
+                color: #f0f0f0;
+                background-color: #03171f;
+                cursor: pointer;
+              "
+            >
+              Kirim Pesan
+            </button>
+          </form>
+        </div>
+      </section>
+    </section>
+    <!-- Footer -->
+    <footer
+      style="background-color: #444444; text-align: center; padding: 1rem 0"
+    >
+      <div>
+        <a href="#"
+          ><i data-feather="instagram" style="color: #f0f0f0; margin: 1rem"></i
+        ></a>
+        <a href="#"
+          ><i data-feather="twitter" style="color: #f0f0f0; margin: 1rem"></i
+        ></a>
+        <a href="#"
+          ><i data-feather="facebook" style="color: #f0f0f0; margin: 1rem"></i
+        ></a>
+      </div>
+      <div>
+        <a href="#home" style="color: #f0f0f0; padding: 0.7rem 1rem">Home</a>
+        <a href="#menu" style="color: #f0f0f0; padding: 0.7rem 1rem">Menu</a>
+        <a href="#about" style="color: #f0f0f0; padding: 0.7rem 1rem"
+          >Tentang</a
+        >
+        <a href="#contact" style="color: #f0f0f0; padding: 0.7rem 1rem"
+          >Kontak</a
+        >
+      </div>
+      <div style="color: #f0f0f0">
+        <p>
+          Created by <span style="color: #edf0f3">RICO ENDICO</span> &copy;
+          2025.
+        </p>
+      </div>
+    </footer>
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
